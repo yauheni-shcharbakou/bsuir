@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Новости</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Новости</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ng-container *ngIf="sources.length">
+    <ion-card-header>
+      <ion-card-title>Источники новостей</ion-card-title>
+      <ion-card-subtitle>Выберите нужные</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-content>
+      <ion-item *ngFor="let source of sources" (click)="toggleSource(source)">
+        <ion-label>{{ source }}</ion-label>
+        <ion-checkbox slot="end" [checked]="isChecked(source)"></ion-checkbox>
+      </ion-item>
+    </ion-content>
+  </ng-container>
+
+  <ng-container *ngIf="!sources.length">
+    <ion-progress-bar type="indeterminate"></ion-progress-bar>
+  </ng-container>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button
+      fill="solid"
+      shape="round"
+      expand="block"
+      (click)="onSubmit()"
+      [disabled]="!checkedSources.length"
+    >
+      Применить
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

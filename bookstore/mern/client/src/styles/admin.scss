@@ -1,0 +1,25 @@
+@import 'lib';
+
+.admin {
+  &__btn_container {
+    width: 100%;
+    @include flex(row, center, center);
+    gap: 1rem;
+  }
+
+  &__btn {
+    padding: .5rem;
+    width: 200px;
+    color: $secondary;
+    border: 2px solid $secondary;
+    text-align: center;
+
+    a {
+      color: inherit;
+    }
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}

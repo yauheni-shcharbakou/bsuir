@@ -1,0 +1,20 @@
+@import 'lib';
+
+.card {
+  padding: 0.5rem;
+  width: 100%;
+
+  &--row {
+    @include flex(row, space-between, center);
+  }
+
+  &--column {
+    @include flex(column, space-between, center);
+  }
+
+  &__container {
+    width: 100%;
+    @include flex(column, flex-start, center);
+    gap: 0.5rem;
+  }
+}

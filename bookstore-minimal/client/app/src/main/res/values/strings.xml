@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Книжный магазин</string>
+
+    <string name="author_placeholder">Автор: пусто</string>
+    <string name="description_placeholder">Описание: пусто</string>
+    <string name="name_placeholder">Имя: пусто</string>
+    <string name="price_placeholder">Цена: бесплатно</string>
+    <string name="year_placeholder">Year: unknown</string>
+
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="reviews">Отзывы</string>
+
+    <string name="info">Информация</string>
+    <string name="name">Имя</string>
+    <string name="description">Описание</string>
+    <string name="year">Год</string>
+    <string name="price">Цена</string>
+    <string name="author">Автор</string>
+</resources>

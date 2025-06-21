@@ -1,0 +1,15 @@
+export const RoutePath = {
+  Main: '/',
+  Admin: '/admin',
+  Register: '/register',
+  Login: '/login',
+  Offer: '/offer',
+  Order: '/order',
+  Book: '/book',
+  Favorite: '/favorite',
+  Review: '/review',
+  Category: '/category',
+  Author: '/author',
+  Publisher: '/publisher',
+  Payment: '/payment',
+}

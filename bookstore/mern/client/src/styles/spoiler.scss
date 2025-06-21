@@ -1,0 +1,16 @@
+@import 'lib';
+
+.spoiler {
+  width: 100%;
+
+  &__summary {
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  &__container {
+    @include flex(column, center, center);
+    gap: .5rem;
+  }
+}

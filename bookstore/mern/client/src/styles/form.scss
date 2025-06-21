@@ -1,0 +1,22 @@
+@import 'lib';
+
+.form {
+  padding: 1rem;
+  @include flex(column, center, center);
+  border: 2px solid $secondary;
+
+  &--large {
+    width: 1000px;
+  }
+
+  &__row {
+    width: 100%;
+    gap: 1rem;
+    @include flex(row, space-between, center);
+  }
+
+  &--small {
+    width: 400px;
+    margin: 0 auto;
+  }
+}

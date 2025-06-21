@@ -1,0 +1,27 @@
+$accent: green;
+$oAccent: rgba(0, 255, 0, 0.5);
+$secondary: #999;
+$hover: rgba(0, 0, 0, 0.5);
+
+$tr: 0.3s ease-out;
+
+@mixin flex($direction: row, $justify: flex-start, $align: flex-start) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin grid($column: 1fr, $row: 1fr, $itemJustify: center, $itemAlign: center) {
+  display: grid;
+  grid-template-columns: $column;
+  grid-template-rows: $row;
+  justify-items: $itemJustify;
+  align-items: $itemAlign;
+}
+
+@mixin scroll-view($height) {
+  width: 100%;
+  height: $height;
+  overflow-y: auto;
+}

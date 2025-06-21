@@ -1,0 +1,11 @@
+{
+  "name": "computer-club",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:backend": "cd backend && npm run start:dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}

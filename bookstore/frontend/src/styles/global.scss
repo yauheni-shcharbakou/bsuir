@@ -1,0 +1,45 @@
+@import 'lib';
+
+* {
+  box-sizing: border-box;
+  transition: $tr;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.content {
+  padding: 2rem;
+  @include flex(column, center, center);
+}
+
+i.material-icons {
+  cursor: pointer;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.btn {
+  margin: 0 0.5rem;
+}
+
+.colored {
+  background-color: $oAccent;
+}
+
+@import 'nav';
+@import 'card';
+@import 'spoiler';
+@import 'admin';
+@import 'book';
+@import 'form';

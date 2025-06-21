@@ -1,0 +1,12 @@
+@import 'lib';
+
+.nav {
+  background-color: $accent;
+
+  .brand-logo {
+    @media (max-width: 1000px) {
+      left: 0;
+      transform: translateX(0);
+    }
+  }
+}

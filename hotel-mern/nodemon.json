@@ -1,0 +1,6 @@
+{
+  "ignore": ["client", ".idea", ".git", "node_modules"],
+  "watch": ["."],
+  "exec": "npm run start:server",
+  "ext": "ts"
+}

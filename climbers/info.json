@@ -1,0 +1,64 @@
+[
+    [
+        {
+            "name": "Эверест",
+            "height": 8800,
+            "region": "Тибет",
+            "country": "Китай",
+            "number_climbers": 2
+        },
+        {
+            "name": "Эльбрус",
+            "height": 5500,
+            "region": "Кавказ",
+            "country": "Грузия",
+            "number_climbers": 1
+        }
+    ],
+    [
+        {
+            "name": "Иван",
+            "address": "Minsk",
+            "group": "g1"
+        },
+        {
+            "name": "Семен",
+            "address": "Minsk",
+            "group": "g1"
+        },
+        {
+            "name": "Сергей",
+            "address": "Minsk",
+            "group": "g2"
+        }
+    ],
+    [
+        {
+            "name": "g1",
+            "members": [
+                "Иван",
+                "Семен"
+            ]
+        },
+        {
+            "name": "g2",
+            "members": [
+                "Сергей"
+            ]
+        }
+    ],
+    [
+        {
+            "group": "g1",
+            "mountain": "Эверест",
+            "date_start": "21.03.2014",
+            "date_end": "24.03.2014"
+        },
+        {
+            "group": "g2",
+            "mountain": "Эльбрус",
+            "date_start": "19.03.2016",
+            "date_end": "24.03.2016"
+        }
+    ]
+]

@@ -1,0 +1,6 @@
+{
+	"appId": "masha.news",
+	"appName": "News",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,25 @@
+@import 'lib';
+
+.book {
+  &__card {
+    margin: 0;
+    width: 450px;
+    height: 200px;
+  }
+
+  &__card-buttons {
+    gap: 0.5rem;
+
+    .btn {
+      width: 120px;
+    }
+  }
+
+  &__container {
+    padding: 1rem;
+    width: 100%;
+    @include flex(row, center);
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
